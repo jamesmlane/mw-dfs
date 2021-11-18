@@ -39,8 +39,8 @@ from mw_dfs import potential as project_potential
 ### Keywords & Setup
 
 # Directories
-data_dir = '/geir_data/scr/lane/projects/mw-dfs/data/data_Sept_2021/gaia_apogee_processed/'
-out_dir = '/geir_data/scr/lane/projects/mw-dfs/data/data_Sept_2021/df_samples/'
+data_dir = '../../data/gaia_apogee_processed/'
+out_dir = '../../data/df_samples/'
 # Ensure directories exist
 if not os.path.exists(out_dir+'df_stash/'):
     os.makedirs(out_dir+'df_stash/')
