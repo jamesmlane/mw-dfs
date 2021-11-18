@@ -6,7 +6,9 @@ data/
 
 # Notebook stuff
 notebooks/start_notebook.bash
+notebooks/server_notebook.bash
 notebooks/sample.ipynb
+notebooks/clean_notebooks.bash
 # notebooks/**/*.ipynb
 notebooks/**/data/
 
