@@ -1,0 +1,32 @@
+# Figure background white for dark notebooks
+figure.facecolor : [1,1,1,1]
+
+# Default colormap is rainbow
+image.cmap : rainbow
+
+# Ticks point inwards on all axes
+xtick.direction : in
+ytick.direction : in
+xtick.top       : True
+ytick.right     : True
+
+# Errorbars have caps
+errorbar.capsize: 3
+
+# Pretty fonts
+text.usetex : True
+mathtext.rm : serif
+font.family : serif
+
+# Larger fonts
+font.size       : 15
+xtick.labelsize : 12
+ytick.labelsize : 12
+
+# Good legend parameters
+legend.loc           : best
+legend.frameon       : True
+legend.framealpha    : 1.0
+legend.facecolor     : white
+legend.edgecolor     : black
+legend.fancybox      : True
